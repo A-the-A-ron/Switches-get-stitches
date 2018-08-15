@@ -11,9 +11,10 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             string crazy = "";
-            Console.WriteLine("do I prefer dogs, cats, birds or bunnies?");
+            
             do
             {
+                Console.WriteLine("do I prefer dogs, cats, birds or bunnies?");
                 string CaseSwitch = Console.ReadLine();
 
 
@@ -29,6 +30,7 @@ namespace ConsoleApp1
                         Console.WriteLine("I mean, they're cool, but my favourite is slightly less mammal");
                         break;
                     default:
+                        Console.Clear();
                         Console.WriteLine("psst. hey. I gave you options for a reason.");
                         break;
                 }
